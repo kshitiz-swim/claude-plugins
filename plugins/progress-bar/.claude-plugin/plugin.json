@@ -1,0 +1,9 @@
+{
+  "name": "progress-bar",
+  "version": "0.3.1",
+  "description": "Live progress bar with % estimate and elapsed time above the prompt",
+  "author": {
+    "name": "Kshitiz Bhatnagar"
+  },
+  "types": "./types/index.d.ts"
+}

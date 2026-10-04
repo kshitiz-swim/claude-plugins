@@ -1,0 +1,7 @@
+{
+  "name": "play-button",
+  "version": "0.1.0",
+  "description": "Repo-agnostic play/pause button that detects and runs the app, with a hover card of running services",
+  "author": { "name": "Kshitiz Bhatnagar" },
+  "types": "./types/index.d.ts"
+}

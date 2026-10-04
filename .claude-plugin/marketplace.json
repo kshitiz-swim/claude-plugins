@@ -1,0 +1,9 @@
+{
+  "name": "kshitiz-plugins",
+  "owner": { "name": "Kshitiz Bhatnagar" },
+  "description": "Claude Code UI mods: a live progress bar and a floating play button",
+  "plugins": [
+    { "name": "progress-bar", "source": "./plugins/progress-bar", "description": "Live progress bar with % estimate, elapsed time and drift arrows; pauses while Claude waits on you" },
+    { "name": "play-button", "source": "./plugins/play-button", "description": "Repo-agnostic play/pause button that detects and runs the app, with a hover card of running services" }
+  ]
+}
