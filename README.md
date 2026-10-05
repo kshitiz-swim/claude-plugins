@@ -1,6 +1,11 @@
 # Claude Code plugins
 
-Two UI mods for Claude Code (terminal, desktop app, VS Code). Pure JavaScript, no OS-specific code, so they run on macOS, Windows and Linux.
+Two UI mods for Claude Code (terminal, desktop app, VS Code).
+
+| Plugin | macOS | Linux | Windows |
+| --- | --- | --- | --- |
+| progress-bar | yes | yes | yes (no OS-specific code) |
+| play-button | yes | likely (needs `sh`, `perl`, `zsh`) | **no**: it launches services through `/bin/sh` and `/bin/zsh` and stops them with POSIX process groups |
 
 - **progress-bar**: a bar with a % estimate and elapsed time, a ▲/▼ arrow against the first estimate, and a clock that pauses while Claude waits for your answer or a permission.
 - **play-button**: a ▶/‖ button that detects how to run the current repo and starts or stops it.
